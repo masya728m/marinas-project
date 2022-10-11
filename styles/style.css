@@ -201,7 +201,7 @@
 
 .feynman__title {
   margin: 100px auto;
-  padding: 0;
+  padding: 100px 0 0;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
@@ -305,10 +305,11 @@
 .footer__columns {
   width: 90%;
   display: flex;
-  margin: 60px auto 40px;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 40px;
   justify-content: space-between;
   min-height: 350px;
-
 }
 
 .footer__column_content_copyright {
